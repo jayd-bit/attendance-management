@@ -25,26 +25,7 @@
 #include <typeinfo>
 #include <windows.h>
 
-using namespace std;
 
-// USER DEFINED FUNCTIONS
-void title(); // TO GIVE THE TITLE                                                  
-void date(); // TO GIVE THE DATE                                                   
-int delay(); // TO DELAY THE DISPLAY               
-void delay(unsigned int mseconds);                             
-int adminLogin(); // LOGIN FUNCTION FOR TEACHERS                                              
-int adminView(); // DISPLAY FOR THE TEACHERS                                              
-int registerStudent(); // TO REGISTER STUDENTS                        
-int checkListOfStudentsRegistered(); // TO CHECK THE LIST OF STUDENTS                       
-int studentLogin(); // LOGIN FUNCTION FOR STUDENTS             
-int studentView(); // DISPLAY FOR THE STUDENTS                                             
-int checkStudentCredentials(string userName, string password); // CHECK PASSWORD
-int markMyAttendance(string username); // MARK THE ATTENDANCE                       
-int countMyAttendance(string username); // COUNT THE ATTENDANCE                       
-int sendLeaveApplication(string username); // TO SEND LEAVE
-int deleteAllStudents(); // TO DELETE ALL THE STUDENTS    
-int getListOFStudentsRegistered(); // GET THE LIST OF STUDENTS
-int deleteStudentAllData(); // DELETE STUDENT DATA
 
 using namespace std;
 
